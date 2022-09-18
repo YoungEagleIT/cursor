@@ -1,0 +1,466 @@
+*{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    border: none;
+}
+.main_info{
+    width: 1440px;
+    height: 990px;
+    background-color: #E5E5E5;
+    left: 24px;
+    padding: 20px 24px 0 24px;
+    margin: auto;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Banner1{
+    width: 1440px;
+    height: 72px;
+    background: #0B2239;
+}
+
+.Info_Banner1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    margin: auto auto;
+}
+
+.Text_Banner1{
+    margin: 16px 0;
+    width: 922px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.Buttons_Banner1{
+    width: 246px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.Settings_Banner1{
+    width: 106px;
+    height: 36px;
+    font-weight: 600;
+    color: #4AD295;
+    background-color: #0B2239;
+    border: none;
+    text-decoration: underline;
+}
+
+.Accept_Banner1{
+    width: 130px;
+    height: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #4AD295;
+    border: none;
+    border-radius: 3px;
+}
+
+.Banner2{
+    width: 1440px;
+    height: 52px;
+    background: #2B2627;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+}
+
+.Info_Banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.Text_Banner2{
+    width: 689px;
+    height: 20px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Banner2 p,a{
+    color: #FFFFFF;
+}
+
+.Banner3{
+    padding: 16px;
+    gap: 10px;
+    width: 560px;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 16px;
+}
+
+.Info_Banner3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text_Banner3{
+    width: 347px;
+    height: 40px;
+    color: black;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Buttons_Banner3{
+    display: flex;
+}
+
+.Decline_Banner3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    width: 63px;
+    height: 28px;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 3px 8px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.Allow_Banner3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 10px;
+    gap: 10px;
+    width: 52px;
+    height: 28px;
+    background: #EA4C89;
+    border-radius: 8px;
+    font-size: 12;
+    font-weight: 500;
+    color: #E5E5E5;
+}
+
+.Banner3 a{
+    font-size: 14px;
+    color:#EA4C89;
+    text-decoration: none;
+}
+
+.Banner4{
+    padding: 12px 16px;
+    gap: 10px;
+    width: 560px;
+    height: 64px;
+    background: #26262B;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 10px;
+}
+
+.Info_Banner4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text_Banner4{
+    width: 469px;
+    height: 40px;
+    font-family: 'Lato';
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.Banner4 a{
+    font-size: 12px;
+    font-family: 'Lato';
+    color: #E6842E;
+    text-decoration: none;
+}
+
+.Buttons_Banner4{
+    display: flex;
+}
+
+.Okay_Banner4{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 9px;
+    gap: 10px;
+    width: 49px;
+    height: 28px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Lato';
+    font-size: 12px;
+    color: #26262B;
+}
+
+.Banners5_6{
+    display: flex;
+    gap: 50px;
+}
+
+.Banner5{
+    padding: 24px;
+    gap: 16px;
+    width: 320px;
+    height: 165px;
+    background: rgba(28, 37, 64, 0.95);
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 6px;
+}
+
+.Info_Banner5{
+    display: flex;
+    flex-direction: column;
+    color: #E5E5E5;
+}
+
+.logo_banner5{
+    width: 121px;
+    height: 17px;
+}
+
+.Text_Banner5{
+    width: 312px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.Banner5 a{
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.Buttons_Banner5{
+    display: flex;
+}
+
+.Manage_Banner5{
+    width: 160px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.Accept_Banner5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    width: 85px;
+    height: 32px;
+    background: #09B3AF;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+    color: #E5E5E5;
+    margin-left: 50px;
+}
+
+.Banner6{
+    padding: 16px;
+    gap: 16px;
+    width: 360px;
+    height: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 16px;
+}
+
+.Info_Banner6{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_banner6{
+    width: 132px;
+    height: 20px;
+}
+
+.Text_Banner6{
+    width: 328px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #687F8C;
+}
+
+.Buttons_Banner6{
+    display: flex;
+}
+
+.Manage_Banner6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 160px;
+    height: 32px;
+    background: #EAF0F4;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #687F8C;
+}
+
+.Accept_Banner6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 160px;
+    height: 32px;
+    background: #40C1A7;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Banners7_8{
+    display: flex;
+    gap: 50px;
+}
+
+.Banner7{
+    padding: 32px;
+    gap: 32px;
+    width: 320px;
+    height: 260px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 20px;
+}
+
+.Info_Banner7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cookies_Banner7{
+    width: 104px;
+    height: 15px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #15295A;
+}
+
+.Text_Banner7{
+    width: 256px;
+    height: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #15295A;
+}
+
+.Accept_Banner7{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 32px;
+    gap: 10px;
+    width: 121px;
+    height: 44px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.Banner8{
+    padding: 16px;
+    gap: 12px;
+    width: 320px;
+    height: 137px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 4px;
+}
+
+.Info_Banner8{
+    display: flex;
+    flex-direction: column;
+}
+
+.Text_Banner8{
+    width: 288px;
+    height: 60px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.Items_Banner8{
+    display: flex;
+    gap: 135px;
+    align-items: center;
+}
+
+.Link_Banner8{
+    width: 95px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.Banner8 a{
+    color: #6666FF;
+    text-decoration: none;
+}
+
+.Accept_Banner8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 64px;
+    height: 33px;
+    background: #6666FF;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
